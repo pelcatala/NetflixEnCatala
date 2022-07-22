@@ -1,0 +1,10 @@
+body {
+    width: 24rem;
+    height: 8rem;
+}
+
+body, html {height: 100%; margin: 0; padding: 0}
+
+.row-container {display: flex; width: 100%; height: 100%; flex-direction: column;}
+
+.destacat{ flex-grow: 1; border: none; margin: 0; padding: 0; }

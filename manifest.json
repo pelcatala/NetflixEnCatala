@@ -1,0 +1,26 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+    "manifest_version": 3,
+    "name": "Netflix en català",
+    "description": "Gaudeix dels doblatges en català que Netflix no incorpora.",
+    "version": "0.0.2",
+    "icons": {
+        "16": "logo/logo-16.png",
+        "48": "logo/logo-48.png",
+        "128": "logo/logo-128.png"
+    },
+    "options_page": "opcions/opcions.html",
+    "action": {
+        "default_title": "Netflix en català",
+        "default_popup": "popup/popup.html"
+    },
+    "content_scripts": [{
+        "js": ["foreground.js"],
+        "matches": ["https://www.netflix.com/*"]
+    }],
+    "web_accessible_resources": [{
+        "resources": ["script.js"],
+        "matches": ["https://www.netflix.com/*"]
+    }]
+}
