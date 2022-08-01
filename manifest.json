@@ -4,7 +4,7 @@
     "manifest_version": 3,
     "name": "Netflix en català",
     "description": "Gaudeix dels doblatges en català que Netflix no incorpora.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "icons": {
         "16": "logo/logo-16.png",
         "48": "logo/logo-48.png",
